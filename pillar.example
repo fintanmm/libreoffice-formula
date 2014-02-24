@@ -1,2 +1,4 @@
-template:
-  master: template-master
+libreoffice:
+    host: 127.0.0.1
+    port: 8100
+    home: /home/libreoffice
