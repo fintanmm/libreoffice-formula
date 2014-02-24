@@ -1,10 +1,6 @@
-{% from "template/map.jinja" import template with context %}
+{% from "libreoffcie/map.jinja" import libreoffcie with context %}
 
-template:
+libreoffcie:
   pkg:
     - installed
-    - name: {{ template.pkg }}
-  service:
-    - running
-    - name: {{ template.service }}
-    - enable: True
+    - name: {{ libreoffcie.pkg }}
