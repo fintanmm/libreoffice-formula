@@ -1,7 +1,5 @@
-{% set template = salt['grains.filter_by']({
-    'default': {
-        'pkg': 'template',
-        'service': 'template',
-        'config': '/etc/template.conf',
+{% set libreoffice = salt['grains.filter_by']({
+    'Ubuntu': {
+        'name': 'libreoffice',
     },
-}, merge=salt['pillar.get']('template:lookup')) %}
+}, merge=salt['pillar.get']('libreoffice:lookup')) %}
