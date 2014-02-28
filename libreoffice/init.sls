@@ -1,6 +1,6 @@
-{% from "libreoffcie/map.jinja" import libreoffcie with context %}
+{% from "libreoffice/map.jinja" import libreoffice with context %}
 
-libreoffcie:
+libreoffice:
   pkg:
     - installed
-    - name: {{ libreoffcie.pkg }}
+    - name: {{ libreoffice.pkg }}
