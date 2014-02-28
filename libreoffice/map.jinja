@@ -1,5 +1,5 @@
 {% set libreoffice = salt['grains.filter_by']({
     'Ubuntu': {
-        'pkg': 'libreoffice',
+        'name': 'libreoffice',
     },
 }, merge=salt['pillar.get']('libreoffice:lookup')) %}

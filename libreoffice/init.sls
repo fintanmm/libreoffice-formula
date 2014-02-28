@@ -3,4 +3,4 @@
 libreoffice:
   pkg:
     - installed
-    - name: {{ libreoffice.pkg }}
+    - name: {{ libreoffice.name }}
